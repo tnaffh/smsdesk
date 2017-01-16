@@ -9,4 +9,4 @@
 return [
     'key' => env('SMSDESK_USER_KEY'),
 
-]
+];
