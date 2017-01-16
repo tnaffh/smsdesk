@@ -1,0 +1,21 @@
+{
+  "name": "tnaffh/smsdesk",
+  "description": "SMSDesck package",
+  "homepage": "https://desk.sms.com.na",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Naftal Timotheus",
+      "email": "tnaffh@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tnaffh\\SMSDesk\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "~5",
+    "guzzlehttp/guzzle": "~6.0"
+  }
