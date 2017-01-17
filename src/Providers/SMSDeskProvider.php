@@ -16,7 +16,7 @@ class SMSDeskProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../config/smsdesk.php' => config_path('smsdesk.php'),
-            __DIR__ . '/../models/Message.php' => config_path('Message.php'),
+            __DIR__ . '/../models/Message.php' => config_path('/../Message.php'),
 
 
         ]);
