@@ -1,5 +1,7 @@
 {
   "name": "tnaffh/smsdesk",
+  "type": "library",
+  "minimum-stability": "dev",
   "description": "SMSDesck package",
   "homepage": "https://desk.sms.com.na",
   "license": "MIT",

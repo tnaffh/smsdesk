@@ -16,9 +16,15 @@ class EbayAPIProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../config/smsdesk.php' => config_path('smsdesk.php'),
+            __DIR__ . '/../models/Message.php' => config_path('Message.php'),
+
+
         ]);
 
+
         $this->loadMigrationsFrom(__DIR__.'/../migrations');
+
+        $this->loadRoutesFrom(__DIR__.'/../routes/routes.php');
     }
 
     /**

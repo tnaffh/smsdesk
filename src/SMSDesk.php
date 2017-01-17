@@ -2,8 +2,10 @@
 
 namespace Tnaffh\SMSDesk;
 
+use GuzzleHttp\Client;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
+use App\Message;
+use Illuminate\Validation\Validator;
 
 
 class SMSDesk
@@ -35,7 +37,14 @@ class SMSDesk
     }
 
     function receive(Request $request){
-        $validator = new Validator();
+        $validator = Validator::make($request,[
+
+        ]);
+
+
+        if($validator->fails()){
+
+        }
 
     }
 
