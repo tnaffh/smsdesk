@@ -5,7 +5,7 @@ namespace Tnaffh\SMSDesk\Providers;
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
 
-class EbayAPIProvider extends ServiceProvider
+class SMSDeskProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
